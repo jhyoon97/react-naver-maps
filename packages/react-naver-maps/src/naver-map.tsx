@@ -59,6 +59,7 @@ type MapOptions = {
   zoomControlOptions?: naver.maps.ZoomControlOptions;
   zoomOrigin?: naver.maps.Coord | naver.maps.CoordLiteral | null;
   blankTileImage?: string | null;
+  gl?: boolean;
 
   // special.
   centerPoint?: naver.maps.Point | naver.maps.PointLiteral;
