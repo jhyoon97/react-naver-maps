@@ -107,6 +107,7 @@ type MapEventCallbacks = {
 };
 
 const basicMapOptionKeys: Array<keyof MapOptions> = [
+  'gl',
   'background',
   'baseTileOpacity',
   // 'bounds',
